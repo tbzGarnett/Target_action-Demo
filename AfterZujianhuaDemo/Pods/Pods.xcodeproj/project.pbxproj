@@ -1,0 +1,1431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		005BC4B5C1580D8F7888AC6C898B7639 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1597F22EBB2B89C79D8BD7679EC79FF8 /* ReplaceMe.m */; };
+		0163D2E5788FDA07D693A250AB40BE4A /* Pods-AfterZujianhuaDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5409B2E323FB956E486652C159B5F3E8 /* Pods-AfterZujianhuaDemo-dummy.m */; };
+		02FC6437D37F25305F32D31F27767242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */; };
+		092BC103B68B7CC8DC1992277EC23AE5 /* ZujianhuaDemoValidateCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C153DD7D82ACCA5C0D80B06C47E39D26 /* ZujianhuaDemoValidateCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09B4662626BDDEA786B962F5DED38839 /* CTMediator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DA00BBB8E6D49731D9F199C49836A80 /* CTMediator-dummy.m */; };
+		0FD980E86B387197DD0253C636C1CCAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */; };
+		2676714D7DEA19F8B6F65281CFB3C160 /* Target_TBZInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 92D59CBBAA4F42A3A6552179A387E4D3 /* Target_TBZInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		293A7CBA9B7B2BCB9E16B10A48D6D211 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDF2E28B7E2356377476C36D5864C41 /* ReplaceMe.m */; };
+		30973FE6BA6BA19986D36E393972A5F2 /* ZujianhuaDemoInfoCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEA5F73D668472D9BC8E70E74343B20 /* ZujianhuaDemoInfoCategoryKit-dummy.m */; };
+		3257D5CE27FC623E644A46D06AD69846 /* Target_TBZValidateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A82E0B4378A8CDE90A2F1563B5E901 /* Target_TBZValidateViewController.m */; };
+		3C7E1F9429A3595DA537AE3AACF7BFD9 /* Target_TBZInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 873E8855465BE3B3C9350DFE5FD555EF /* Target_TBZInfoViewController.m */; };
+		4C93B08D92544D2EECF3952E53C67B51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */; };
+		6AC535F4B5606E3E105BBE8DDD2B4E76 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE86C4869A6EB4736875B0F122E90BE /* CTMediator.framework */; };
+		75959389CC7F8AD62AF3736A11A4E746 /* CTMediator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FE86C4869A6EB4736875B0F122E90BE /* CTMediator.framework */; };
+		7E583D1A22D5AAE1A0991CE3BBE9B076 /* TBZValidateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F42D2FFC9690E4102DD2052592B0D5DE /* TBZValidateViewController.m */; };
+		88FE146F3629CD7EA73A3B81DF749E04 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = BD2587E8A953787BA0955A7E3D33FBFD /* ReplaceMe.m */; };
+		8AEB5222813011311CAA24D628B696BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A2730F81EF1DFC1F2E7C48E869C0BB /* UIKit.framework */; };
+		8D78AB28C746A5199FE78623E9F3A6EF /* ZujianhuaDemoValidateCategoryKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B641D709F85B1C7D43A0049250220B /* ZujianhuaDemoValidateCategoryKit-dummy.m */; };
+		935E496811DAECC02A4B158064FAC9EC /* ZujianhuaDemoValidateKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DA6348A3EA3B70164B6373B75E183BD0 /* ZujianhuaDemoValidateKit-dummy.m */; };
+		9FE70151C488829AFAD8C9DEC4385D41 /* Pods-AfterZujianhuaDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1BD0EA32D76F96C645590F7A0611A5C /* Pods-AfterZujianhuaDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A47D87176EF240C3AB4B996BB50EB66C /* TBZInfoViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 22EFDB2AD177ABFE330E9325F5472D49 /* TBZInfoViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF472EC97DA80E75EC657F81E89C76B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */; };
+		AF8D2E5EA457A8AD2E7721C156299BE0 /* CTMediator.h in Headers */ = {isa = PBXBuildFile; fileRef = 96CD15CB65D0656F4444454C9A569777 /* CTMediator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4349BFD210C5FB9701A1EE500EAD831 /* CTMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = C89CF893E706D0EBFDCCE28D39FA0CD5 /* CTMediator.m */; };
+		BDC654F5116CC6D0A90FF55359054CD8 /* ZujianhuaDemoInfoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA6E14A2CE1B8AC870A60E2D49B4C6F9 /* ZujianhuaDemoInfoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE609AE49F3E978ACBB99EA714B6E820 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EDE3BA475F9C955311A828FEE156EDF /* ReplaceMe.m */; };
+		C08170AAAB20EF36DD3DD0F521D54301 /* TBZInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700C8ED5DFAF5BF4CF873777D7CC63B5 /* TBZInfoViewController.m */; };
+		D1F513244748E498A0A6BBC468A3B257 /* CTMediator+TBZValidate.h in Headers */ = {isa = PBXBuildFile; fileRef = 70F4365091D79C1CE85BBD8F00551EA3 /* CTMediator+TBZValidate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3A2CFB21109C453F6DDD13E87D49BEF /* TBZValidateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8118486D1A22A01A4F28494C44565881 /* TBZValidateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5D531E5E4EFF817EAAAE20EECFC64EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */; };
+		D78099C726D0CF72C081E5C7EF122612 /* CTMediator+TBZInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C89F5E01D27CA92955D39D9CB560647 /* CTMediator+TBZInfo.m */; };
+		DC03ED0597201AA6591006CDD3DA4163 /* ZujianhuaDemoInfoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 56A6C7A7214FAFAB061BFB601D048423 /* ZujianhuaDemoInfoKit-dummy.m */; };
+		DC2B9AB21A83B770E66391BAAA529734 /* ZujianhuaDemoValidateKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7131ABAB82929ABA05AD7EB370208B54 /* ZujianhuaDemoValidateKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E377370394B6ED68EAD2AFF8CB9719BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */; };
+		E3F42ADB01010EBD97D8A5123EBC3064 /* Target_TBZValidateViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 37B3AB87BA0E76A8FDEE646D9164B0BE /* Target_TBZValidateViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E55573A65E2716A9BBECAED7E9CFFB1A /* CTMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 447B82EA28D3ACF0579E65CA602A04AE /* CTMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E99C07404C15566EF97E6848F07B7FE2 /* ZujianhuaDemoValidateCategoryKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26D26E8B6A6B125FF32EE0C70DBEAF64 /* ZujianhuaDemoValidateCategoryKit.framework */; };
+		E9B87A4563AC9C6276C76FE1F16F8048 /* ZujianhuaDemoInfoCategoryKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4540C4B597238B620B4BC0C2AC503AA /* ZujianhuaDemoInfoCategoryKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECC5DF94C19904501285272D3D610F29 /* CTMediator+TBZInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A6ECE1E26E0F0CB56CE4D39E9B5BAE8 /* CTMediator+TBZInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2C22022738083C9C930274D46626DB0 /* CTMediator+TBZValidate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2287A49F731EF4F963A9D915206DD226 /* CTMediator+TBZValidate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0252228B7717A8E25003335105AD7C71 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		45D0AE03074A8CC6E681808A1F9960D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		50929BB57943DECD10D3980CF9065035 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 97A7A9FC12F53C1468E918FE3BEB2C39;
+			remoteInfo = ZujianhuaDemoValidateKit;
+		};
+		55EB96DE0BA21A5D0A03814FDF7AD2AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A222DBB9D71B481EE8F2DACD77F8A61;
+			remoteInfo = CTMediator;
+		};
+		63A7891D4750DDF0235F44092E40CC89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5542CDC24725998E9EDEA0CD7C05091;
+			remoteInfo = ZujianhuaDemoValidateCategoryKit;
+		};
+		76196A68F66F101E3DC8BD47B727C151 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC19B3A58FBB696123AC58FD4FF2D499;
+			remoteInfo = ZujianhuaDemoInfoKit;
+		};
+		7B82FDBCED334A8C58CD9C43EA08F2B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 283910750D8FA08D4F7ED0A9B4882A29;
+			remoteInfo = ZujianhuaDemoInfoCategoryKit;
+		};
+		FC3C377FA9C0CF693D74774A3ACE9934 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5542CDC24725998E9EDEA0CD7C05091;
+			remoteInfo = ZujianhuaDemoValidateCategoryKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0F33802272B214DC5F44FE35BAF67C15 /* Pods-AfterZujianhuaDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AfterZujianhuaDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FE86C4869A6EB4736875B0F122E90BE /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11A82E0B4378A8CDE90A2F1563B5E901 /* Target_TBZValidateViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_TBZValidateViewController.m; path = ZujianhuaDemoValidateKit/Classes/Validate/Target_TBZValidateViewController.m; sourceTree = "<group>"; };
+		12A16CFAFB4A87E59A0E1948DD1A397A /* Pods-AfterZujianhuaDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AfterZujianhuaDemo-frameworks.sh"; sourceTree = "<group>"; };
+		1597F22EBB2B89C79D8BD7679EC79FF8 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZujianhuaDemoValidateKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1D3393E23F4C464BDB739BD64B06D03A /* ZujianhuaDemoInfoKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZujianhuaDemoInfoKit.xcconfig; sourceTree = "<group>"; };
+		219F9F385557785423DB95E9D85BDC4D /* ZujianhuaDemoValidateKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoValidateKit-prefix.pch"; sourceTree = "<group>"; };
+		2287A49F731EF4F963A9D915206DD226 /* CTMediator+TBZValidate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TBZValidate.m"; path = "ZujianhuaDemoValidateCategoryKit/Classes/ValidateCategory/CTMediator+TBZValidate.m"; sourceTree = "<group>"; };
+		22EFDB2AD177ABFE330E9325F5472D49 /* TBZInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBZInfoViewController.h; path = ZujianhuaDemoInfoKit/Classes/Info/TBZInfoViewController.h; sourceTree = "<group>"; };
+		26D26E8B6A6B125FF32EE0C70DBEAF64 /* ZujianhuaDemoValidateCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZujianhuaDemoValidateCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3524CE13882B955D71924B29794F10DD /* CTMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CTMediator.xcconfig; sourceTree = "<group>"; };
+		37B3AB87BA0E76A8FDEE646D9164B0BE /* Target_TBZValidateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_TBZValidateViewController.h; path = ZujianhuaDemoValidateKit/Classes/Validate/Target_TBZValidateViewController.h; sourceTree = "<group>"; };
+		38BE68CA025BAAF082E399C64EFB504A /* ZujianhuaDemoInfoCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoInfoCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		38E4A09524694F30E23CB9D9EBDDE8C5 /* ZujianhuaDemoValidateCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZujianhuaDemoValidateCategoryKit.framework; path = ZujianhuaDemoValidateCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3EDE3BA475F9C955311A828FEE156EDF /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZujianhuaDemoInfoCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		447B82EA28D3ACF0579E65CA602A04AE /* CTMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-umbrella.h"; sourceTree = "<group>"; };
+		484274A1E071BF5EA7148CC440297D3A /* Pods-AfterZujianhuaDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AfterZujianhuaDemo.modulemap"; sourceTree = "<group>"; };
+		496EEED8A26A8CB17F70CB5EA0404B18 /* CTMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CTMediator.modulemap; sourceTree = "<group>"; };
+		4A026D6E3CFC9D21440DFB4EAF8D6083 /* ZujianhuaDemoInfoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoInfoKit-prefix.pch"; sourceTree = "<group>"; };
+		4A5E2DD09D9336BF520DB4D8004D6BD7 /* ZujianhuaDemoInfoCategoryKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZujianhuaDemoInfoCategoryKit.framework; path = ZujianhuaDemoInfoCategoryKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B635320204633AFA361ADBCD580BB6D /* ZujianhuaDemoValidateCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZujianhuaDemoValidateCategoryKit.xcconfig; sourceTree = "<group>"; };
+		4DA00BBB8E6D49731D9F199C49836A80 /* CTMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CTMediator-dummy.m"; sourceTree = "<group>"; };
+		4FEA5F73D668472D9BC8E70E74343B20 /* ZujianhuaDemoInfoCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZujianhuaDemoInfoCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		505EAEEED0664B21FD83E98642A60AC5 /* Pods-AfterZujianhuaDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AfterZujianhuaDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5311C3EFBF7C38D707AACA8A07939D50 /* Pods_AfterZujianhuaDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AfterZujianhuaDemo.framework; path = "Pods-AfterZujianhuaDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5409B2E323FB956E486652C159B5F3E8 /* Pods-AfterZujianhuaDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AfterZujianhuaDemo-dummy.m"; sourceTree = "<group>"; };
+		56A6C7A7214FAFAB061BFB601D048423 /* ZujianhuaDemoInfoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZujianhuaDemoInfoKit-dummy.m"; sourceTree = "<group>"; };
+		5C89F5E01D27CA92955D39D9CB560647 /* CTMediator+TBZInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CTMediator+TBZInfo.m"; path = "ZujianhuaDemoInfoCategoryKit/Classes/InfoCategory/CTMediator+TBZInfo.m"; sourceTree = "<group>"; };
+		700C8ED5DFAF5BF4CF873777D7CC63B5 /* TBZInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBZInfoViewController.m; path = ZujianhuaDemoInfoKit/Classes/Info/TBZInfoViewController.m; sourceTree = "<group>"; };
+		701D479FDFAB583D0D394F631EF6C7CB /* Pods-AfterZujianhuaDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AfterZujianhuaDemo.release.xcconfig"; sourceTree = "<group>"; };
+		70F4365091D79C1CE85BBD8F00551EA3 /* CTMediator+TBZValidate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TBZValidate.h"; path = "ZujianhuaDemoValidateCategoryKit/Classes/ValidateCategory/CTMediator+TBZValidate.h"; sourceTree = "<group>"; };
+		7131ABAB82929ABA05AD7EB370208B54 /* ZujianhuaDemoValidateKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoValidateKit-umbrella.h"; sourceTree = "<group>"; };
+		797D26A090A84D88399CF354FB3A7639 /* ZujianhuaDemoValidateKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZujianhuaDemoValidateKit.xcconfig; sourceTree = "<group>"; };
+		806866CF797D69A1407F623E815B853C /* ZujianhuaDemoValidateCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZujianhuaDemoValidateCategoryKit.modulemap; sourceTree = "<group>"; };
+		8118486D1A22A01A4F28494C44565881 /* TBZValidateViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TBZValidateViewController.h; path = ZujianhuaDemoValidateKit/Classes/Validate/TBZValidateViewController.h; sourceTree = "<group>"; };
+		873E8855465BE3B3C9350DFE5FD555EF /* Target_TBZInfoViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Target_TBZInfoViewController.m; path = ZujianhuaDemoInfoKit/Classes/Info/Target_TBZInfoViewController.m; sourceTree = "<group>"; };
+		8A6ECE1E26E0F0CB56CE4D39E9B5BAE8 /* CTMediator+TBZInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CTMediator+TBZInfo.h"; path = "ZujianhuaDemoInfoCategoryKit/Classes/InfoCategory/CTMediator+TBZInfo.h"; sourceTree = "<group>"; };
+		8B1D1F7D958B8B8549EA6D22EB790382 /* ZujianhuaDemoValidateKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZujianhuaDemoValidateKit.framework; path = ZujianhuaDemoValidateKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9175FCD7BBDC159670CD83A736290356 /* ZujianhuaDemoInfoCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZujianhuaDemoInfoCategoryKit-Info.plist"; sourceTree = "<group>"; };
+		92D59CBBAA4F42A3A6552179A387E4D3 /* Target_TBZInfoViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Target_TBZInfoViewController.h; path = ZujianhuaDemoInfoKit/Classes/Info/Target_TBZInfoViewController.h; sourceTree = "<group>"; };
+		96CD15CB65D0656F4444454C9A569777 /* CTMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CTMediator.h; path = CTMediator/CTMediator/CTMediator.h; sourceTree = "<group>"; };
+		995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		99C57542E0F2E6BE91921FC21B50B0A6 /* ZujianhuaDemoValidateCategoryKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZujianhuaDemoValidateCategoryKit-Info.plist"; sourceTree = "<group>"; };
+		9A808DA51EC2C2358151C0C791FBEBED /* CTMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CTMediator-prefix.pch"; sourceTree = "<group>"; };
+		9CDF2E28B7E2356377476C36D5864C41 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZujianhuaDemoValidateCategoryKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0B641D709F85B1C7D43A0049250220B /* ZujianhuaDemoValidateCategoryKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZujianhuaDemoValidateCategoryKit-dummy.m"; sourceTree = "<group>"; };
+		A1BD0EA32D76F96C645590F7A0611A5C /* Pods-AfterZujianhuaDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AfterZujianhuaDemo-umbrella.h"; sourceTree = "<group>"; };
+		AD1A751D286D9B490523C8FA1A23B94E /* ZujianhuaDemoInfoCategoryKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZujianhuaDemoInfoCategoryKit.modulemap; sourceTree = "<group>"; };
+		BB3159CD0A7A6E1615D1E55FEDA87488 /* ZujianhuaDemoValidateKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZujianhuaDemoValidateKit-Info.plist"; sourceTree = "<group>"; };
+		BD2587E8A953787BA0955A7E3D33FBFD /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ZujianhuaDemoInfoKit/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		BFE2A330E0AA8F1E6FF42AF5FB9DFF43 /* ZujianhuaDemoInfoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZujianhuaDemoInfoKit.modulemap; sourceTree = "<group>"; };
+		C031E92B1C63743B4DE165F6D4E9667F /* ZujianhuaDemoInfoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ZujianhuaDemoInfoKit-Info.plist"; sourceTree = "<group>"; };
+		C152C8B582CB48F57384A1F831104EA9 /* Pods-AfterZujianhuaDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AfterZujianhuaDemo-Info.plist"; sourceTree = "<group>"; };
+		C153DD7D82ACCA5C0D80B06C47E39D26 /* ZujianhuaDemoValidateCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoValidateCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		C1A2730F81EF1DFC1F2E7C48E869C0BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C4540C4B597238B620B4BC0C2AC503AA /* ZujianhuaDemoInfoCategoryKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoInfoCategoryKit-umbrella.h"; sourceTree = "<group>"; };
+		C89CF893E706D0EBFDCCE28D39FA0CD5 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
+		CA4E7ADFA07708B4D66FB517789FF761 /* ZujianhuaDemoValidateCategoryKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoValidateCategoryKit-prefix.pch"; sourceTree = "<group>"; };
+		D4239E31EF84C8A8B4CFD26C1066672A /* ZujianhuaDemoInfoCategoryKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZujianhuaDemoInfoCategoryKit.xcconfig; sourceTree = "<group>"; };
+		D44EA792EEDA395F85F98BD9F56E7511 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA6348A3EA3B70164B6373B75E183BD0 /* ZujianhuaDemoValidateKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZujianhuaDemoValidateKit-dummy.m"; sourceTree = "<group>"; };
+		E6F166581B3AA7C80BC05D096E38BDD4 /* ZujianhuaDemoValidateKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ZujianhuaDemoValidateKit.modulemap; sourceTree = "<group>"; };
+		E9C002A1253F69D0C28098713D1E1568 /* Pods-AfterZujianhuaDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AfterZujianhuaDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		EA1C2EF2FDE7C4EE40482210E2E302B2 /* CTMediator-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CTMediator-Info.plist"; sourceTree = "<group>"; };
+		EA6E14A2CE1B8AC870A60E2D49B4C6F9 /* ZujianhuaDemoInfoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZujianhuaDemoInfoKit-umbrella.h"; sourceTree = "<group>"; };
+		F204E82BBDC7CF5BE48EA871E922E0B9 /* ZujianhuaDemoInfoKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ZujianhuaDemoInfoKit.framework; path = ZujianhuaDemoInfoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42D2FFC9690E4102DD2052592B0D5DE /* TBZValidateViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TBZValidateViewController.m; path = ZujianhuaDemoValidateKit/Classes/Validate/TBZValidateViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4644F9E7E766F4570C3944299466F46A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75959389CC7F8AD62AF3736A11A4E746 /* CTMediator.framework in Frameworks */,
+				D5D531E5E4EFF817EAAAE20EECFC64EB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A91E1EBCB2779B1D427D05B4A8F24A6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02FC6437D37F25305F32D31F27767242 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9AAEAB0B230E46950819D5C33B06B4A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C93B08D92544D2EECF3952E53C67B51 /* Foundation.framework in Frameworks */,
+				8AEB5222813011311CAA24D628B696BB /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABF46C1DF5F16389BE7A7BD4B27F9955 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AC535F4B5606E3E105BBE8DDD2B4E76 /* CTMediator.framework in Frameworks */,
+				E377370394B6ED68EAD2AFF8CB9719BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF55A59063489BABC586B5BED74CC391 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF472EC97DA80E75EC657F81E89C76B1 /* Foundation.framework in Frameworks */,
+				E99C07404C15566EF97E6848F07B7FE2 /* ZujianhuaDemoValidateCategoryKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED5E563957FE0D571288549475B45807 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD980E86B387197DD0253C636C1CCAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A1FCEF5270B0B7CFFD2FC2393C9CE5 /* Pods-AfterZujianhuaDemo */ = {
+			isa = PBXGroup;
+			children = (
+				484274A1E071BF5EA7148CC440297D3A /* Pods-AfterZujianhuaDemo.modulemap */,
+				0F33802272B214DC5F44FE35BAF67C15 /* Pods-AfterZujianhuaDemo-acknowledgements.markdown */,
+				E9C002A1253F69D0C28098713D1E1568 /* Pods-AfterZujianhuaDemo-acknowledgements.plist */,
+				5409B2E323FB956E486652C159B5F3E8 /* Pods-AfterZujianhuaDemo-dummy.m */,
+				12A16CFAFB4A87E59A0E1948DD1A397A /* Pods-AfterZujianhuaDemo-frameworks.sh */,
+				C152C8B582CB48F57384A1F831104EA9 /* Pods-AfterZujianhuaDemo-Info.plist */,
+				A1BD0EA32D76F96C645590F7A0611A5C /* Pods-AfterZujianhuaDemo-umbrella.h */,
+				505EAEEED0664B21FD83E98642A60AC5 /* Pods-AfterZujianhuaDemo.debug.xcconfig */,
+				701D479FDFAB583D0D394F631EF6C7CB /* Pods-AfterZujianhuaDemo.release.xcconfig */,
+			);
+			name = "Pods-AfterZujianhuaDemo";
+			path = "Target Support Files/Pods-AfterZujianhuaDemo";
+			sourceTree = "<group>";
+		};
+		58E24D42D39FE5563C4CD3C5A1DF90C8 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				995D08EDDA32960EA6E9437C0DDE52D6 /* Foundation.framework */,
+				C1A2730F81EF1DFC1F2E7C48E869C0BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		640775941A863FA7A23543A0E389AACB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FE86C4869A6EB4736875B0F122E90BE /* CTMediator.framework */,
+				26D26E8B6A6B125FF32EE0C70DBEAF64 /* ZujianhuaDemoValidateCategoryKit.framework */,
+				58E24D42D39FE5563C4CD3C5A1DF90C8 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6BD5A924B1B71D526C9095B42495CD0D /* ZujianhuaDemoValidateCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				70F4365091D79C1CE85BBD8F00551EA3 /* CTMediator+TBZValidate.h */,
+				2287A49F731EF4F963A9D915206DD226 /* CTMediator+TBZValidate.m */,
+				9CDF2E28B7E2356377476C36D5864C41 /* ReplaceMe.m */,
+				C01D531ECBC60883B0E5D9DBB7D6B0AD /* Support Files */,
+			);
+			name = ZujianhuaDemoValidateCategoryKit;
+			path = ZujianhuaDemoValidateCategoryKit;
+			sourceTree = "<group>";
+		};
+		6D88BA757DFAD92A5195A6EB622B6EFC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E6F166581B3AA7C80BC05D096E38BDD4 /* ZujianhuaDemoValidateKit.modulemap */,
+				797D26A090A84D88399CF354FB3A7639 /* ZujianhuaDemoValidateKit.xcconfig */,
+				DA6348A3EA3B70164B6373B75E183BD0 /* ZujianhuaDemoValidateKit-dummy.m */,
+				BB3159CD0A7A6E1615D1E55FEDA87488 /* ZujianhuaDemoValidateKit-Info.plist */,
+				219F9F385557785423DB95E9D85BDC4D /* ZujianhuaDemoValidateKit-prefix.pch */,
+				7131ABAB82929ABA05AD7EB370208B54 /* ZujianhuaDemoValidateKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZujianhuaDemoValidateKit";
+			sourceTree = "<group>";
+		};
+		77DDFB560DE7EAE7B5B696BD44EC1B1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D44EA792EEDA395F85F98BD9F56E7511 /* CTMediator.framework */,
+				5311C3EFBF7C38D707AACA8A07939D50 /* Pods_AfterZujianhuaDemo.framework */,
+				4A5E2DD09D9336BF520DB4D8004D6BD7 /* ZujianhuaDemoInfoCategoryKit.framework */,
+				F204E82BBDC7CF5BE48EA871E922E0B9 /* ZujianhuaDemoInfoKit.framework */,
+				38E4A09524694F30E23CB9D9EBDDE8C5 /* ZujianhuaDemoValidateCategoryKit.framework */,
+				8B1D1F7D958B8B8549EA6D22EB790382 /* ZujianhuaDemoValidateKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		918B0DA50F8528A5A9A16A91731C6950 /* CTMediator */ = {
+			isa = PBXGroup;
+			children = (
+				96CD15CB65D0656F4444454C9A569777 /* CTMediator.h */,
+				C89CF893E706D0EBFDCCE28D39FA0CD5 /* CTMediator.m */,
+				B67D72FBF8AC79DB37CE581B5557E32C /* Support Files */,
+			);
+			name = CTMediator;
+			path = CTMediator;
+			sourceTree = "<group>";
+		};
+		9B0E063CE5F0DB577604D0F28BC241A9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFE2A330E0AA8F1E6FF42AF5FB9DFF43 /* ZujianhuaDemoInfoKit.modulemap */,
+				1D3393E23F4C464BDB739BD64B06D03A /* ZujianhuaDemoInfoKit.xcconfig */,
+				56A6C7A7214FAFAB061BFB601D048423 /* ZujianhuaDemoInfoKit-dummy.m */,
+				C031E92B1C63743B4DE165F6D4E9667F /* ZujianhuaDemoInfoKit-Info.plist */,
+				4A026D6E3CFC9D21440DFB4EAF8D6083 /* ZujianhuaDemoInfoKit-prefix.pch */,
+				EA6E14A2CE1B8AC870A60E2D49B4C6F9 /* ZujianhuaDemoInfoKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZujianhuaDemoInfoKit";
+			sourceTree = "<group>";
+		};
+		A3A08FAD02C16805C9495ABC7DC28693 /* ZujianhuaDemoValidateKit */ = {
+			isa = PBXGroup;
+			children = (
+				1597F22EBB2B89C79D8BD7679EC79FF8 /* ReplaceMe.m */,
+				37B3AB87BA0E76A8FDEE646D9164B0BE /* Target_TBZValidateViewController.h */,
+				11A82E0B4378A8CDE90A2F1563B5E901 /* Target_TBZValidateViewController.m */,
+				8118486D1A22A01A4F28494C44565881 /* TBZValidateViewController.h */,
+				F42D2FFC9690E4102DD2052592B0D5DE /* TBZValidateViewController.m */,
+				6D88BA757DFAD92A5195A6EB622B6EFC /* Support Files */,
+			);
+			name = ZujianhuaDemoValidateKit;
+			path = ZujianhuaDemoValidateKit;
+			sourceTree = "<group>";
+		};
+		B2B75B1CC74D9E500152EE85461671F9 /* ZujianhuaDemoInfoCategoryKit */ = {
+			isa = PBXGroup;
+			children = (
+				8A6ECE1E26E0F0CB56CE4D39E9B5BAE8 /* CTMediator+TBZInfo.h */,
+				5C89F5E01D27CA92955D39D9CB560647 /* CTMediator+TBZInfo.m */,
+				3EDE3BA475F9C955311A828FEE156EDF /* ReplaceMe.m */,
+				E97CFC6AF258F86FF3DA4DE4316083D8 /* Support Files */,
+			);
+			name = ZujianhuaDemoInfoCategoryKit;
+			path = ZujianhuaDemoInfoCategoryKit;
+			sourceTree = "<group>";
+		};
+		B592ADB57D7379F9E02389A6A06DADCC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				918B0DA50F8528A5A9A16A91731C6950 /* CTMediator */,
+				B2B75B1CC74D9E500152EE85461671F9 /* ZujianhuaDemoInfoCategoryKit */,
+				E6ADF3ED3BEF591A2A79E7A31F336B52 /* ZujianhuaDemoInfoKit */,
+				6BD5A924B1B71D526C9095B42495CD0D /* ZujianhuaDemoValidateCategoryKit */,
+				A3A08FAD02C16805C9495ABC7DC28693 /* ZujianhuaDemoValidateKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B67D72FBF8AC79DB37CE581B5557E32C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				496EEED8A26A8CB17F70CB5EA0404B18 /* CTMediator.modulemap */,
+				3524CE13882B955D71924B29794F10DD /* CTMediator.xcconfig */,
+				4DA00BBB8E6D49731D9F199C49836A80 /* CTMediator-dummy.m */,
+				EA1C2EF2FDE7C4EE40482210E2E302B2 /* CTMediator-Info.plist */,
+				9A808DA51EC2C2358151C0C791FBEBED /* CTMediator-prefix.pch */,
+				447B82EA28D3ACF0579E65CA602A04AE /* CTMediator-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CTMediator";
+			sourceTree = "<group>";
+		};
+		C01D531ECBC60883B0E5D9DBB7D6B0AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				806866CF797D69A1407F623E815B853C /* ZujianhuaDemoValidateCategoryKit.modulemap */,
+				4B635320204633AFA361ADBCD580BB6D /* ZujianhuaDemoValidateCategoryKit.xcconfig */,
+				A0B641D709F85B1C7D43A0049250220B /* ZujianhuaDemoValidateCategoryKit-dummy.m */,
+				99C57542E0F2E6BE91921FC21B50B0A6 /* ZujianhuaDemoValidateCategoryKit-Info.plist */,
+				CA4E7ADFA07708B4D66FB517789FF761 /* ZujianhuaDemoValidateCategoryKit-prefix.pch */,
+				C153DD7D82ACCA5C0D80B06C47E39D26 /* ZujianhuaDemoValidateCategoryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZujianhuaDemoValidateCategoryKit";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				640775941A863FA7A23543A0E389AACB /* Frameworks */,
+				B592ADB57D7379F9E02389A6A06DADCC /* Pods */,
+				77DDFB560DE7EAE7B5B696BD44EC1B1A /* Products */,
+				F834FA29F2F131BB5FCBE6E404AAAD60 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E6ADF3ED3BEF591A2A79E7A31F336B52 /* ZujianhuaDemoInfoKit */ = {
+			isa = PBXGroup;
+			children = (
+				BD2587E8A953787BA0955A7E3D33FBFD /* ReplaceMe.m */,
+				92D59CBBAA4F42A3A6552179A387E4D3 /* Target_TBZInfoViewController.h */,
+				873E8855465BE3B3C9350DFE5FD555EF /* Target_TBZInfoViewController.m */,
+				22EFDB2AD177ABFE330E9325F5472D49 /* TBZInfoViewController.h */,
+				700C8ED5DFAF5BF4CF873777D7CC63B5 /* TBZInfoViewController.m */,
+				9B0E063CE5F0DB577604D0F28BC241A9 /* Support Files */,
+			);
+			name = ZujianhuaDemoInfoKit;
+			path = ZujianhuaDemoInfoKit;
+			sourceTree = "<group>";
+		};
+		E97CFC6AF258F86FF3DA4DE4316083D8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AD1A751D286D9B490523C8FA1A23B94E /* ZujianhuaDemoInfoCategoryKit.modulemap */,
+				D4239E31EF84C8A8B4CFD26C1066672A /* ZujianhuaDemoInfoCategoryKit.xcconfig */,
+				4FEA5F73D668472D9BC8E70E74343B20 /* ZujianhuaDemoInfoCategoryKit-dummy.m */,
+				9175FCD7BBDC159670CD83A736290356 /* ZujianhuaDemoInfoCategoryKit-Info.plist */,
+				38BE68CA025BAAF082E399C64EFB504A /* ZujianhuaDemoInfoCategoryKit-prefix.pch */,
+				C4540C4B597238B620B4BC0C2AC503AA /* ZujianhuaDemoInfoCategoryKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ZujianhuaDemoInfoCategoryKit";
+			sourceTree = "<group>";
+		};
+		F834FA29F2F131BB5FCBE6E404AAAD60 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				43A1FCEF5270B0B7CFFD2FC2393C9CE5 /* Pods-AfterZujianhuaDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6685EB3955E1204DC370EDE77C751643 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F42ADB01010EBD97D8A5123EBC3064 /* Target_TBZValidateViewController.h in Headers */,
+				D3A2CFB21109C453F6DDD13E87D49BEF /* TBZValidateViewController.h in Headers */,
+				DC2B9AB21A83B770E66391BAAA529734 /* ZujianhuaDemoValidateKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9637176D0AC0D66009A6DBECF058993B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FE70151C488829AFAD8C9DEC4385D41 /* Pods-AfterZujianhuaDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9CC3DF65612BDF58E88909E6A6C5E7A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2676714D7DEA19F8B6F65281CFB3C160 /* Target_TBZInfoViewController.h in Headers */,
+				A47D87176EF240C3AB4B996BB50EB66C /* TBZInfoViewController.h in Headers */,
+				BDC654F5116CC6D0A90FF55359054CD8 /* ZujianhuaDemoInfoKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C0A3CBB5BDC0E565B22F5C1152F2A2E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1F513244748E498A0A6BBC468A3B257 /* CTMediator+TBZValidate.h in Headers */,
+				092BC103B68B7CC8DC1992277EC23AE5 /* ZujianhuaDemoValidateCategoryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C924473C838C5EC228779C5BCA539482 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECC5DF94C19904501285272D3D610F29 /* CTMediator+TBZInfo.h in Headers */,
+				E9B87A4563AC9C6276C76FE1F16F8048 /* ZujianhuaDemoInfoCategoryKit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E09C0E4961CDD0DA36ADBF812A99C205 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E55573A65E2716A9BBECAED7E9CFFB1A /* CTMediator-umbrella.h in Headers */,
+				AF8D2E5EA457A8AD2E7721C156299BE0 /* CTMediator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		283910750D8FA08D4F7ED0A9B4882A29 /* ZujianhuaDemoInfoCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8AD154169241DE5629CDAC708BBCE9F /* Build configuration list for PBXNativeTarget "ZujianhuaDemoInfoCategoryKit" */;
+			buildPhases = (
+				C924473C838C5EC228779C5BCA539482 /* Headers */,
+				1348715DC1166834BB7F59D70D1CB967 /* Sources */,
+				ABF46C1DF5F16389BE7A7BD4B27F9955 /* Frameworks */,
+				6C2F73D93F5A1480622B4AD82CBE7227 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B29C7728ECCD6AFB72B02552523A17A /* PBXTargetDependency */,
+			);
+			name = ZujianhuaDemoInfoCategoryKit;
+			productName = ZujianhuaDemoInfoCategoryKit;
+			productReference = 4A5E2DD09D9336BF520DB4D8004D6BD7 /* ZujianhuaDemoInfoCategoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAEE94B4DF12387485FDE83E269E47AE /* Build configuration list for PBXNativeTarget "CTMediator" */;
+			buildPhases = (
+				E09C0E4961CDD0DA36ADBF812A99C205 /* Headers */,
+				8AD680449146DBC72EAA6B46AF1F2182 /* Sources */,
+				9AAEAB0B230E46950819D5C33B06B4A1 /* Frameworks */,
+				1FB81590E6E3E066CA7B19E21D854BB5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CTMediator;
+			productName = CTMediator;
+			productReference = D44EA792EEDA395F85F98BD9F56E7511 /* CTMediator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7255CFF0FE527FA6C9C56A71CDFD8DE6 /* Pods-AfterZujianhuaDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5750395E79C396DA6644EEF1A34A3C8C /* Build configuration list for PBXNativeTarget "Pods-AfterZujianhuaDemo" */;
+			buildPhases = (
+				9637176D0AC0D66009A6DBECF058993B /* Headers */,
+				117D068162B073A3178E95B08671F3EB /* Sources */,
+				ED5E563957FE0D571288549475B45807 /* Frameworks */,
+				EFCDC8CC0D117FF2693E7831C6E72F7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D8099FEACC834509F53BD7B319E34F44 /* PBXTargetDependency */,
+				CE8C58D55E77513A3008F2BE67E718E0 /* PBXTargetDependency */,
+				E2F66A8A2D0DBF3F08D94F00EB5B611B /* PBXTargetDependency */,
+				E3FD2B8D03FE8BFC041733A7EE5D0072 /* PBXTargetDependency */,
+				4D45B7FF7C1E0AF7CC0C02CAD4C767D3 /* PBXTargetDependency */,
+			);
+			name = "Pods-AfterZujianhuaDemo";
+			productName = "Pods-AfterZujianhuaDemo";
+			productReference = 5311C3EFBF7C38D707AACA8A07939D50 /* Pods_AfterZujianhuaDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		97A7A9FC12F53C1468E918FE3BEB2C39 /* ZujianhuaDemoValidateKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B46F3A11006AF45483EDDFC4696D6472 /* Build configuration list for PBXNativeTarget "ZujianhuaDemoValidateKit" */;
+			buildPhases = (
+				6685EB3955E1204DC370EDE77C751643 /* Headers */,
+				45076C6F08BAC2C33C973EF7E00AA357 /* Sources */,
+				9A91E1EBCB2779B1D427D05B4A8F24A6 /* Frameworks */,
+				EE46F512B0F974066333E2BA5E0A73D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZujianhuaDemoValidateKit;
+			productName = ZujianhuaDemoValidateKit;
+			productReference = 8B1D1F7D958B8B8549EA6D22EB790382 /* ZujianhuaDemoValidateKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5542CDC24725998E9EDEA0CD7C05091 /* ZujianhuaDemoValidateCategoryKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0EEF03851E7BE90FB699E09D2E3FAE00 /* Build configuration list for PBXNativeTarget "ZujianhuaDemoValidateCategoryKit" */;
+			buildPhases = (
+				C0A3CBB5BDC0E565B22F5C1152F2A2E8 /* Headers */,
+				F5D9FD62286F3E55D999194C180B8EF6 /* Sources */,
+				4644F9E7E766F4570C3944299466F46A /* Frameworks */,
+				3C66D5F55C8A47F0DCDEEBDDC85682D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CAF1CB2806F7179B185AB779D983B19A /* PBXTargetDependency */,
+			);
+			name = ZujianhuaDemoValidateCategoryKit;
+			productName = ZujianhuaDemoValidateCategoryKit;
+			productReference = 38E4A09524694F30E23CB9D9EBDDE8C5 /* ZujianhuaDemoValidateCategoryKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC19B3A58FBB696123AC58FD4FF2D499 /* ZujianhuaDemoInfoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E3A7E75AFB4B8D95A918326C91C94DA /* Build configuration list for PBXNativeTarget "ZujianhuaDemoInfoKit" */;
+			buildPhases = (
+				A9CC3DF65612BDF58E88909E6A6C5E7A /* Headers */,
+				91DDF5FA725958855179309E0F41C586 /* Sources */,
+				BF55A59063489BABC586B5BED74CC391 /* Frameworks */,
+				780BD4652F12972BC9CB087DBBABD4BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C8BF5906EA1A4B70F2C9B144A711CF5 /* PBXTargetDependency */,
+			);
+			name = ZujianhuaDemoInfoKit;
+			productName = ZujianhuaDemoInfoKit;
+			productReference = F204E82BBDC7CF5BE48EA871E922E0B9 /* ZujianhuaDemoInfoKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 77DDFB560DE7EAE7B5B696BD44EC1B1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */,
+				7255CFF0FE527FA6C9C56A71CDFD8DE6 /* Pods-AfterZujianhuaDemo */,
+				283910750D8FA08D4F7ED0A9B4882A29 /* ZujianhuaDemoInfoCategoryKit */,
+				AC19B3A58FBB696123AC58FD4FF2D499 /* ZujianhuaDemoInfoKit */,
+				A5542CDC24725998E9EDEA0CD7C05091 /* ZujianhuaDemoValidateCategoryKit */,
+				97A7A9FC12F53C1468E918FE3BEB2C39 /* ZujianhuaDemoValidateKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FB81590E6E3E066CA7B19E21D854BB5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C66D5F55C8A47F0DCDEEBDDC85682D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C2F73D93F5A1480622B4AD82CBE7227 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		780BD4652F12972BC9CB087DBBABD4BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE46F512B0F974066333E2BA5E0A73D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFCDC8CC0D117FF2693E7831C6E72F7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		117D068162B073A3178E95B08671F3EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0163D2E5788FDA07D693A250AB40BE4A /* Pods-AfterZujianhuaDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1348715DC1166834BB7F59D70D1CB967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78099C726D0CF72C081E5C7EF122612 /* CTMediator+TBZInfo.m in Sources */,
+				BE609AE49F3E978ACBB99EA714B6E820 /* ReplaceMe.m in Sources */,
+				30973FE6BA6BA19986D36E393972A5F2 /* ZujianhuaDemoInfoCategoryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45076C6F08BAC2C33C973EF7E00AA357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				005BC4B5C1580D8F7888AC6C898B7639 /* ReplaceMe.m in Sources */,
+				3257D5CE27FC623E644A46D06AD69846 /* Target_TBZValidateViewController.m in Sources */,
+				7E583D1A22D5AAE1A0991CE3BBE9B076 /* TBZValidateViewController.m in Sources */,
+				935E496811DAECC02A4B158064FAC9EC /* ZujianhuaDemoValidateKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8AD680449146DBC72EAA6B46AF1F2182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09B4662626BDDEA786B962F5DED38839 /* CTMediator-dummy.m in Sources */,
+				B4349BFD210C5FB9701A1EE500EAD831 /* CTMediator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91DDF5FA725958855179309E0F41C586 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88FE146F3629CD7EA73A3B81DF749E04 /* ReplaceMe.m in Sources */,
+				3C7E1F9429A3595DA537AE3AACF7BFD9 /* Target_TBZInfoViewController.m in Sources */,
+				C08170AAAB20EF36DD3DD0F521D54301 /* TBZInfoViewController.m in Sources */,
+				DC03ED0597201AA6591006CDD3DA4163 /* ZujianhuaDemoInfoKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5D9FD62286F3E55D999194C180B8EF6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2C22022738083C9C930274D46626DB0 /* CTMediator+TBZValidate.m in Sources */,
+				293A7CBA9B7B2BCB9E16B10A48D6D211 /* ReplaceMe.m in Sources */,
+				8D78AB28C746A5199FE78623E9F3A6EF /* ZujianhuaDemoValidateCategoryKit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B29C7728ECCD6AFB72B02552523A17A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 45D0AE03074A8CC6E681808A1F9960D6 /* PBXContainerItemProxy */;
+		};
+		4D45B7FF7C1E0AF7CC0C02CAD4C767D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZujianhuaDemoValidateKit;
+			target = 97A7A9FC12F53C1468E918FE3BEB2C39 /* ZujianhuaDemoValidateKit */;
+			targetProxy = 50929BB57943DECD10D3980CF9065035 /* PBXContainerItemProxy */;
+		};
+		8C8BF5906EA1A4B70F2C9B144A711CF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZujianhuaDemoValidateCategoryKit;
+			target = A5542CDC24725998E9EDEA0CD7C05091 /* ZujianhuaDemoValidateCategoryKit */;
+			targetProxy = FC3C377FA9C0CF693D74774A3ACE9934 /* PBXContainerItemProxy */;
+		};
+		CAF1CB2806F7179B185AB779D983B19A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 0252228B7717A8E25003335105AD7C71 /* PBXContainerItemProxy */;
+		};
+		CE8C58D55E77513A3008F2BE67E718E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZujianhuaDemoInfoCategoryKit;
+			target = 283910750D8FA08D4F7ED0A9B4882A29 /* ZujianhuaDemoInfoCategoryKit */;
+			targetProxy = 7B82FDBCED334A8C58CD9C43EA08F2B1 /* PBXContainerItemProxy */;
+		};
+		D8099FEACC834509F53BD7B319E34F44 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CTMediator;
+			target = 6A222DBB9D71B481EE8F2DACD77F8A61 /* CTMediator */;
+			targetProxy = 55EB96DE0BA21A5D0A03814FDF7AD2AC /* PBXContainerItemProxy */;
+		};
+		E2F66A8A2D0DBF3F08D94F00EB5B611B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZujianhuaDemoInfoKit;
+			target = AC19B3A58FBB696123AC58FD4FF2D499 /* ZujianhuaDemoInfoKit */;
+			targetProxy = 76196A68F66F101E3DC8BD47B727C151 /* PBXContainerItemProxy */;
+		};
+		E3FD2B8D03FE8BFC041733A7EE5D0072 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZujianhuaDemoValidateCategoryKit;
+			target = A5542CDC24725998E9EDEA0CD7C05091 /* ZujianhuaDemoValidateCategoryKit */;
+			targetProxy = 63A7891D4750DDF0235F44092E40CC89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049435BC48580BAC173326575AFF26C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797D26A090A84D88399CF354FB3A7639 /* ZujianhuaDemoValidateKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoValidateKit;
+				PRODUCT_NAME = ZujianhuaDemoValidateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		050AA61873CE81BC686E50F599667F37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 701D479FDFAB583D0D394F631EF6C7CB /* Pods-AfterZujianhuaDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AfterZujianhuaDemo/Pods-AfterZujianhuaDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AfterZujianhuaDemo/Pods-AfterZujianhuaDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		19F1EF673775F38D69423513B7874F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3524CE13882B955D71924B29794F10DD /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3AC21EBBBEE0F719915CF9473E62104D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B635320204633AFA361ADBCD580BB6D /* ZujianhuaDemoValidateCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoValidateCategoryKit;
+				PRODUCT_NAME = ZujianhuaDemoValidateCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3E740DFEB1F33F9AF8B5689E30662A2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 505EAEEED0664B21FD83E98642A60AC5 /* Pods-AfterZujianhuaDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AfterZujianhuaDemo/Pods-AfterZujianhuaDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AfterZujianhuaDemo/Pods-AfterZujianhuaDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6954BAD48C8F70D9F233DA5ED5CBEAD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4239E31EF84C8A8B4CFD26C1066672A /* ZujianhuaDemoInfoCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoInfoCategoryKit;
+				PRODUCT_NAME = ZujianhuaDemoInfoCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A386869CAD92A509CBDAFCEBB3976E35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 797D26A090A84D88399CF354FB3A7639 /* ZujianhuaDemoValidateKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoValidateKit;
+				PRODUCT_NAME = ZujianhuaDemoValidateKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A9EC9079E4C00232870A307810DC07FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3393E23F4C464BDB739BD64B06D03A /* ZujianhuaDemoInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoInfoKit;
+				PRODUCT_NAME = ZujianhuaDemoInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B6FEC85355D2F5752BB880826076A2DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B635320204633AFA361ADBCD580BB6D /* ZujianhuaDemoValidateCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoValidateCategoryKit;
+				PRODUCT_NAME = ZujianhuaDemoValidateCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BB0271BDDE9E066BA76BB193DA45485C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4239E31EF84C8A8B4CFD26C1066672A /* ZujianhuaDemoInfoCategoryKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoInfoCategoryKit;
+				PRODUCT_NAME = ZujianhuaDemoInfoCategoryKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EC739F05B13E2D83B45EA0A459BD7B6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3393E23F4C464BDB739BD64B06D03A /* ZujianhuaDemoInfoKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit.modulemap";
+				PRODUCT_MODULE_NAME = ZujianhuaDemoInfoKit;
+				PRODUCT_NAME = ZujianhuaDemoInfoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F232B5ECA11A71BFA199A229B323F454 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		FA3DAB07D533CF1FF8ECCEECD59E600E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3524CE13882B955D71924B29794F10DD /* CTMediator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CTMediator/CTMediator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CTMediator/CTMediator-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/CTMediator/CTMediator.modulemap";
+				PRODUCT_MODULE_NAME = CTMediator;
+				PRODUCT_NAME = CTMediator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0EEF03851E7BE90FB699E09D2E3FAE00 /* Build configuration list for PBXNativeTarget "ZujianhuaDemoValidateCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AC21EBBBEE0F719915CF9473E62104D /* Debug */,
+				B6FEC85355D2F5752BB880826076A2DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB4D69770D8ACE3A05E80BB3502666F6 /* Debug */,
+				F232B5ECA11A71BFA199A229B323F454 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5750395E79C396DA6644EEF1A34A3C8C /* Build configuration list for PBXNativeTarget "Pods-AfterZujianhuaDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E740DFEB1F33F9AF8B5689E30662A2E /* Debug */,
+				050AA61873CE81BC686E50F599667F37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E3A7E75AFB4B8D95A918326C91C94DA /* Build configuration list for PBXNativeTarget "ZujianhuaDemoInfoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC739F05B13E2D83B45EA0A459BD7B6C /* Debug */,
+				A9EC9079E4C00232870A307810DC07FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B46F3A11006AF45483EDDFC4696D6472 /* Build configuration list for PBXNativeTarget "ZujianhuaDemoValidateKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049435BC48580BAC173326575AFF26C9 /* Debug */,
+				A386869CAD92A509CBDAFCEBB3976E35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAEE94B4DF12387485FDE83E269E47AE /* Build configuration list for PBXNativeTarget "CTMediator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19F1EF673775F38D69423513B7874F48 /* Debug */,
+				FA3DAB07D533CF1FF8ECCEECD59E600E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8AD154169241DE5629CDAC708BBCE9F /* Build configuration list for PBXNativeTarget "ZujianhuaDemoInfoCategoryKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6954BAD48C8F70D9F233DA5ED5CBEAD1 /* Debug */,
+				BB0271BDDE9E066BA76BB193DA45485C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

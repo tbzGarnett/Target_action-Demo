@@ -1,0 +1,35 @@
+PODS:
+  - CTMediator (25)
+  - ZujianhuaDemoInfoCategoryKit (0.1.0):
+    - CTMediator
+  - ZujianhuaDemoInfoKit (0.1.0):
+    - ZujianhuaDemoValidateCategoryKit
+  - ZujianhuaDemoValidateCategoryKit (0.1.0):
+    - CTMediator
+  - ZujianhuaDemoValidateKit (0.1.0)
+
+DEPENDENCIES:
+  - ZujianhuaDemoInfoCategoryKit
+  - ZujianhuaDemoInfoKit
+  - ZujianhuaDemoValidateCategoryKit
+  - ZujianhuaDemoValidateKit
+
+SPEC REPOS:
+  https://gitee.com/tbzgarnett/TBZTargetActionDemoSpec.git:
+    - ZujianhuaDemoInfoCategoryKit
+    - ZujianhuaDemoInfoKit
+    - ZujianhuaDemoValidateCategoryKit
+    - ZujianhuaDemoValidateKit
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  ZujianhuaDemoInfoCategoryKit: 0abb9c47eca1273e2e9eb4a2dc14c043ba360e22
+  ZujianhuaDemoInfoKit: 4f8b019be522a633c17428fde4d0473ab08a16e5
+  ZujianhuaDemoValidateCategoryKit: 0c825005a00689ceb1ff844ca83c81c59b19573d
+  ZujianhuaDemoValidateKit: 254baf6e918b91f12078af29f81bfa7d8b51ffd6
+
+PODFILE CHECKSUM: 532e2f078d03d5739fa3e32e211d2800c98328f9
+
+COCOAPODS: 1.7.0.beta.2

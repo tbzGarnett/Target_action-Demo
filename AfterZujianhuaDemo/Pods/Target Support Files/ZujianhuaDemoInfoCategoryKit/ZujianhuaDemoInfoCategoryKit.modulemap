@@ -1,0 +1,6 @@
+framework module ZujianhuaDemoInfoCategoryKit {
+  umbrella header "ZujianhuaDemoInfoCategoryKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

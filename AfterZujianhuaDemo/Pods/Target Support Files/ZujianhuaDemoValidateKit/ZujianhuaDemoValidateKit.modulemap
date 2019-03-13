@@ -1,0 +1,6 @@
+framework module ZujianhuaDemoValidateKit {
+  umbrella header "ZujianhuaDemoValidateKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

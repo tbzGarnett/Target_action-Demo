@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-AfterZujianhuaDemo/Pods-AfterZujianhuaDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework
+${BUILT_PRODUCTS_DIR}/ZujianhuaDemoInfoCategoryKit/ZujianhuaDemoInfoCategoryKit.framework
+${BUILT_PRODUCTS_DIR}/ZujianhuaDemoInfoKit/ZujianhuaDemoInfoKit.framework
+${BUILT_PRODUCTS_DIR}/ZujianhuaDemoValidateCategoryKit/ZujianhuaDemoValidateCategoryKit.framework
+${BUILT_PRODUCTS_DIR}/ZujianhuaDemoValidateKit/ZujianhuaDemoValidateKit.framework
