@@ -15,3 +15,5 @@ Demo基于CTMediator实现。
 [组件化Validate模块TargetAction](https://gitee.com/tbzgarnett/ZujianhuaDemoValidateKit.git)
 
 [组件化后完整Demo](https://gitee.com/tbzgarnett/AfterZujianhuaDemo.git)
+
+可配合简书：[Target-action 组件化demo](https://www.jianshu.com/p/ae4016b12de6)理解
