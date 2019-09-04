@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Target_TBZInfoViewController : NSObject
+@interface Target_TBZInfo : NSObject
 - (UIViewController *)Action_TBZGotoInfoViewController:(NSDictionary *)param;
 @end
 

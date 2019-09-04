@@ -11,7 +11,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface Target_TBZValidateViewController : NSObject
+@interface Target_TBZValidate : NSObject
 - (UIViewController *)Action_TBZValidateAction:(NSDictionary *)param;
 @end
 

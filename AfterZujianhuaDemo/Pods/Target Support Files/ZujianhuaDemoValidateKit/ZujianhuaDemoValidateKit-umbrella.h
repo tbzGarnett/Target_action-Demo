@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "Target_TBZValidateViewController.h"
+#import "Target_TBZValidate.h"
 #import "TBZValidateViewController.h"
 
 FOUNDATION_EXPORT double ZujianhuaDemoValidateKitVersionNumber;

@@ -15,6 +15,10 @@
     [mDic setObject:name forKey:@"name"];
     [mDic setObject:age forKey:@"age"];
     
-    return [self performTarget:@"TBZInfoViewController" action:@"TBZGotoInfoViewController" params:mDic shouldCacheTarget:NO];
+    return [self performTarget:@"TBZInfo" action:@"TBZGotoInfoViewController" params:mDic shouldCacheTarget:NO];
+    //    NSString *url = [NSString stringWithFormat:@"aaa://TBZInfo/TBZGotoInfoViewController?name=%@&age=%@",name,age];
+    //    return [self performActionWithUrl:[NSURL URLWithString:url] completion:^(NSDictionary *info) {
+    //        NSLog(@"%@",info);
+    //    }];
 }
 @end

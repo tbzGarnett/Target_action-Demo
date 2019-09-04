@@ -10,7 +10,7 @@
 #endif
 #endif
 
-#import "Target_TBZInfoViewController.h"
+#import "Target_TBZInfo.h"
 #import "TBZInfoViewController.h"
 
 FOUNDATION_EXPORT double ZujianhuaDemoInfoKitVersionNumber;

@@ -6,10 +6,10 @@
 //  Copyright © 2019 apple. All rights reserved.
 //
 
-#import "Target_TBZInfoViewController.h"
+#import "Target_TBZInfo.h"
 #import "TBZInfoViewController.h"
 
-@implementation Target_TBZInfoViewController
+@implementation Target_TBZInfo
 
 - (UIViewController *)Action_TBZGotoInfoViewController:(NSDictionary *)param{
     TBZInfoViewController *infoVC = [[TBZInfoViewController alloc] init];

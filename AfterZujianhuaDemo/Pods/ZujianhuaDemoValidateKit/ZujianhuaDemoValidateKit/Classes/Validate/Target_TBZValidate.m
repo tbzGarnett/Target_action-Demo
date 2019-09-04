@@ -6,10 +6,10 @@
 //  Copyright © 2019 apple. All rights reserved.
 //
 
-#import "Target_TBZValidateViewController.h"
+#import "Target_TBZValidate.h"
 #import "TBZValidateViewController.h"
 
-@implementation Target_TBZValidateViewController
+@implementation Target_TBZValidate
 - (UIViewController *)Action_TBZValidateAction:(NSDictionary *)param{
     TBZValidateViewController *validateVC = [[TBZValidateViewController alloc] init];
     validateVC.resultBlock = [param valueForKey:@"validateBlock"];

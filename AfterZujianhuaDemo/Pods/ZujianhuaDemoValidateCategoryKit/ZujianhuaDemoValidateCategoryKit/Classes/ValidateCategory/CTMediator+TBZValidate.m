@@ -12,6 +12,6 @@
 - (UIViewController *)validateWithResult:(ResultBlock)resultBlock{
     NSMutableDictionary *mDic = [NSMutableDictionary dictionary];
     [mDic setValue:resultBlock forKey:@"validateBlock"];
-    return [self performTarget:@"TBZValidateViewController" action:@"TBZValidateAction" params:mDic shouldCacheTarget:NO];
+    return [self performTarget:@"TBZValidate" action:@"TBZValidateAction" params:mDic shouldCacheTarget:NO];
 }
 @end
